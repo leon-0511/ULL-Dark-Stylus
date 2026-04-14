@@ -66,6 +66,7 @@
     .nav-tabs .nav-item.show .nav-link:hover {
         background-color: #96969678;
         color: #fff;
+        border-bottom-color: #a120e9;
     }
 
     .nav-tabs .nav-link:hover {
