@@ -1,0 +1,375 @@
+/* ==UserStyle==
+@name           ULLDark
+@namespace      https://github.com/leon-0511/ULL-Dark-Stylus
+@version        1.0.0
+@description    Userstyle for ULL websites (Currently only supporting campusvirtual.ull.es)
+@author         leon-0511
+==/UserStyle== */
+@-moz-document url-prefix("https://campusvirtual.ull.es") {
+    #navbar-ull {
+      background-color:#a120e9;
+    }
+
+    
+    body {
+        background-color: #393939;
+        color-scheme: dark;
+    }
+
+    a {
+        color: #a120e9;
+        background-color: #fff0;
+    }
+
+    @media (min-width: 992px) {
+        #page.drawers.show-drawer-right {
+            background-color: #393939;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #page.drawers .main-inner {
+            background-color: #393939;
+        }
+    }
+
+    h2,
+    .h2 {
+        color: #fff;
+    }
+
+    .moremenu .nav-tabs {
+        margin-left: 0;
+        background-color: #393939;
+    }
+
+    .secondary-navigation .navigation {
+        background-color: #393939;
+    }
+
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-item.show .nav-link {
+        color: #fff;
+        background-color: #fff;
+        border-color: #dee2e6 #dee2e6 #fff;
+    }
+
+    .nav-tabs .nav-link.active,
+    .nav-tabs .nav-item.show .nav-link {
+        color: #fff;
+        background-color: #393939;
+        border-color: #dee2e6 #dee2e6 #fff;
+        border-bottom-color: #a120e9;
+    }
+
+    .nav-tabs .nav-link.active:hover,
+    .nav-tabs .nav-item.show .nav-link:hover {
+        background-color: #96969678;
+        color: #fff;
+    }
+
+    .nav-tabs .nav-link:hover {
+        background-color: #96969678;
+        color: #5c068c;
+    }
+
+    nav.navbar-moodle-main {
+        background-color: #393939 !important;
+    }
+
+    nav.navbar-moodle-main a#home-cvull-link,
+    nav.navbar-moodle-main span.main-bc-sep {
+        color: #a120e9;
+    }
+
+    nav.navbar-moodle-main a.navbar-brand.campus-site-name {
+        color: #a120e9;
+    }
+
+    #yui_3_18_1_1_1776114759239_178:hover {
+        background-color: #96969678;
+    }
+
+    nav.navbar-moodle-main div.menu-desplegable-navbar-ull:not(.show) button.btn-secondary#dropdownMenuButton-ayuda,
+    nav.navbar-moodle-main div.menu-desplegable-navbar-ull:not(.show) button.btn-secondary#dropdownMenuButton-entornos {
+        background-color: #393939;
+        border-color: #eee;
+    }
+
+    nav.navbar-moodle-main div.menu-desplegable-navbar-ull:not(.show) button.btn-secondary#dropdownMenuButton-ayuda:hover,
+    nav.navbar-moodle-main div.menu-desplegable-navbar-ull:not(.show) button.btn-secondary#dropdownMenuButton-entornos:hover {
+        background-color: #ddd !important;
+        border-color: #ddd;
+    }
+
+    nav.navbar-moodle-main div.menu-desplegable-navbar-ull button.btn-secondary {
+        color: #fff;
+    }
+    
+    nav.navbar-moodle-main div.menu-desplegable-navbar-ull button.btn-secondary:hover {
+        color: #222;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgb(255, 255, 255);
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #a120e9;
+    }
+
+    nav.navbar-moodle-main .usermenu div.dropdown > a:first-child:hover {
+        background-color: #ddd !important;
+    }
+
+    .btn {
+        color: #fff;
+    }
+
+    .btn:hover {
+        color: #fff;
+    }
+
+    .drawer {
+        background-color: #303030;
+    }
+
+    .card {
+        background-color: #393939;
+        border: 1px solid #fff;
+        color: #fff
+    }
+
+    .drawer-toggles .drawer-toggler .btn {
+        background-color: #a120e9;
+    }
+
+    .courseindex .courseindex-item .courseindex-link,
+    .courseindex .courseindex-item .courseindex-chevron {
+        color: #fff;
+    }
+
+    .courseindex .courseindex-item .courseindex-link:hover,
+    .courseindex .courseindex-item .courseindex-chevron:hover {
+        color: #a120e9 !important;
+    }
+
+    /* When hovering a link, also style the chevron */
+    .courseindex .courseindex-item:has(.courseindex-link:hover) .courseindex-chevron {
+        color: #a120e9 !important;
+    }
+
+    /* When hovering a chevron, also style the link */
+    .courseindex .courseindex-item:has(.courseindex-chevron:hover) .courseindex-link {
+        color: #a120e9 !important;
+    }
+
+    /* Highlight the item itself on either hover */
+    .courseindex .courseindex-item:has(.courseindex-link:hover),
+    .courseindex .courseindex-item:has(.courseindex-chevron:hover) {
+        color: #a120e9 !important;
+    }
+
+    .courseindex .courseindex-item:hover.dimmed,
+    .courseindex .courseindex-item:focus.dimmed {
+        color: #979797;
+    }
+
+    .courseindex .courseindex-item:hover .courseindex-link,
+    .courseindex .courseindex-item:hover .courseindex-chevron,
+    .courseindex .courseindex-item:focus .courseindex-link,
+    .courseindex .courseindex-item:focus .courseindex-chevron {
+        color: #979797;
+    }
+
+    #region-main {
+        background-color: #393939;
+        color: white;
+    }
+
+    .course-section .sectionname > a {
+        color: #a120e9;
+    }
+
+    .btn.btn-icon.icons-collapse-expand {
+        color: white;
+        background-color: #a120e9;
+    }
+
+    .resourcelinkdetails {
+        color: white;
+    }
+
+    .activity-item .activity-dates {
+        color: white;
+    }
+
+    .course-section .availabilityinfo {
+        background-color: #303030;
+    }
+
+    .icon.fa.fa-question.fa-fw {
+        color: white;
+    }
+
+    .btn.btn-icon.bg-secondary.icon-no-margin.btn-footer-popover {
+        background-color: #a120e9 !important;
+    }
+
+    #page-footer div.footer-content-debugging.text-light {
+        color: white !important;
+        background-color: #393939 !important;
+    }
+
+    #page-footer div.footer-content-debugging.text-light .cvull-footer ul.address {
+        color: #fff;
+    }
+
+    #page-footer div.footer-content-debugging.text-light .cvull-footer a,
+    #page-footer div.footer-content-debugging.text-light .cvull-footer i {
+        color: #fff !important;
+    }
+
+    .path-mod .activity-header:not(:empty) {
+        background-color: #5c068c;
+    }
+
+    .generaltable thead .sticky-column,
+    .generaltable tbody tr:nth-of-type(2n) {
+        background-color: #5f5f5f;
+    }
+
+    .generaltable {
+        /* color: #1d2125; */
+        color: #fff;
+    }
+
+    .generaltable tbody tr:hover {
+        /* color: #1d2125; */
+        color: #fff;
+    }
+
+    .gradingform_rubric .criterion.even td {
+        background: #393939;
+    }
+
+    .gradingform_rubric .criterion.odd td {
+        background: #5f5f5f;
+    }
+
+    .gradingform_rubric .criterion .level.checked {
+        background: #619561;
+    }
+
+    .block_course_campus_overview.block .content {
+        background: none repeat scroll 0 0 #393939;
+    }
+
+    .list-group-item {
+        background-color: #393939;
+        border-color: white;
+    }
+
+    .text-primary {
+        /* color: #5c068c !important; */
+        color: #a120e9 !important;
+    }
+
+    .text-muted {
+        color: #fff !important;
+    }
+    
+    .list-group-item-action:hover,
+    .list-group-item-action:focus {
+      z-index:1;
+      color:#495057;
+      text-decoration:none;
+      background-color:#a120e95e;
+    }
+    
+    a.text-primary:hover,
+    a.text-primary:focus {
+      color:#fff !important;
+    }
+
+    
+    /* all | https://campusvirtual.ull.es/2526/ingenieriaytecnologia/theme/styles.php/campus/1768980087_1768893792/all */
+
+    .path-grade-report-user .user-report-container, .grade-report-user .user-report-container {
+      /* background-color: #f8f9fa; */
+      background-color: #393939;
+    }
+
+    .path-grade-report-user .user-grade thead th, .grade-report-user .user-grade thead th {
+      /* background-color: #f8f9fa; */
+      background-color: #393939;
+    }
+
+    .path-grade-report-user .user-grade th.category, .grade-report-user .user-grade th.category {
+      /* background-color: #fff; */
+      background-color: #393939;
+    }
+
+    .path-grade-report-user .user-grade td, .grade-report-user .user-grade td {
+      /* background-color: #f8f9fa; */
+      background-color: #393939;
+    }
+
+    .path-grade-report-user .user-grade th.column-itemname:not(.header, .category, .baggt, .baggb), .grade-report-user .user-grade th.column-itemname:not(.header, .category, .baggt, .baggb) {
+      /* background-color: #fff; */
+      background-color: #393939;
+    }
+
+    .path-grade-report-user .user-grade td.item, .grade-report-user .user-grade td.item {
+      /* background-color: #fff; */
+      background-color: #393939;
+    }
+
+    .path-grade-report-user .user-grade .baggt, .path-grade-report-user .user-grade .baggb, .grade-report-user .user-grade .baggt, .grade-report-user .user-grade .baggb {
+      /* background-color: #f8f9fa; */
+      background-color: #393939;
+    }
+    
+    
+    /* all.css | https://campusvirtual.ull.es/static/assets-moodle-frontal/all.css */
+
+    .navbar-app {
+      /* background-color: #eee !important; */
+      background-color: #393939 !important;
+    }
+
+    div.menu-desplegable-navbar-ull:not(.show) button.btn-secondary#dropdownMenuButton-ayuda, div.menu-desplegable-navbar-ull:not(.show) button.btn-secondary#dropdownMenuButton-entornos {
+      /* background-color: #eee; */
+      /* border-color: #eee; */
+      background-color: #393939;
+      border-color: #393939;
+    }
+
+    div.menu-desplegable-navbar-ull button.btn-secondary {
+      /* color: #373737; */
+      color: #fff;
+    }
+
+    .navbar-app .navbar-brand .site-name {
+      /* color: #5c068c; */
+      color: #a120e9;
+    }
+
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+      /* color: inherit; */
+      color: white;
+    }
+
+    /* Inline | https://campusvirtual.ull.es/ */
+
+    #main-title {
+      /* color: #5c068c; */
+      color: #a120e9;
+    }
+
+    .link-novigente {
+      color:#868686 !important;
+    }
+
+
+}
