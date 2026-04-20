@@ -372,5 +372,15 @@
       color:#868686 !important;
     }
 
+    
+    /* Inline | https://campusvirtual.ull.es/2526/ingenieriaytecnologia/my/ */
+    .popover-region-header-text {
+      color: black;
+    }
+
+    .popover-region-header-actions>* {
+      color: black !important;
+    }
+
 
 }
